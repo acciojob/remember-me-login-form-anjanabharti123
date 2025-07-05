@@ -10,12 +10,17 @@
   <h1>Login Form</h1>
 
   <form id="login-form">
-    <input type="text" id="username" placeholder="Username" required />
-    <input type="password" id="password" placeholder="Password" required />
-    <label>
+    <label for="username">Username:</label><br />
+    <input type="text" id="username" placeholder="Username" required /><br />
+
+    <label for="password">Password:</label><br />
+    <input type="password" id="password" placeholder="Password" required /><br />
+
+    <label for="checkbox">
       <input type="checkbox" id="checkbox" />
       Remember me
-    </label>
+    </label><br />
+
     <input type="submit" id="submit" value="Submit" />
   </form>
 
